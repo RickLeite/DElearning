@@ -9,7 +9,7 @@ bucket_name = "dtc_data_lake_dtc-de-376416"
 client = storage.Client()
 bucket = client.bucket(bucket_name)
 
-months = range(1, 12)
+months = range(1, 13)
 base_url = "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/fhv/"
 filename_template = "fhv_tripdata_2019-{:02d}.csv.gz"
 
